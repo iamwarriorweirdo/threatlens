@@ -35,6 +35,6 @@ app.use((err, req, res, next) => {
 
 app.listen(PORT, () => {
     console.log(`\n🛡️  ThreatLens API running on http://localhost:${PORT}`);
-    console.log(`   Model: ${process.env.GEMINI_MODEL || 'gemini-1.5-flash'}`);
+    console.log(`   Model: ${process.env.GEMINI_MODEL || 'gemini-3.0-flash'}`);
     console.log(`   API Key: ${process.env.GEMINI_API_KEY ? '✅ Set' : '❌ Missing!'}\n`);
 });
